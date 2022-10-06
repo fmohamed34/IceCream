@@ -33,36 +33,72 @@
             <tr>
                 <td>
                     <label>
-                        <input type="checkbox" value="whipped cream">
-                        Whipped cream
-                    </label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>
                         <input type="checkbox" value="sprinkles">
+                        <input type="checkbox" value="sprinkles" id="sprinkles" checked>
                         Sprinkles ($0.50)
                     </label>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <label>
-                        <input type="checkbox" value="hot fudge">
-                        Hot fudge
+                        <input type="checkbox" value="whip">
+                        <input type="checkbox" value="whip" id="whip">
+                        Whipped Cream ($0.25)
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>
                     <label>
-                        <input type="checkbox" value="Cherry">
-                        Cherry
+                        <input type="checkbox" value="fudge">
+                        <input type="checkbox" value="fudge" id="fudge">
+                        Hot Fudge ($1.25)
                     </label>
                 </td>
-            </tr>
-        </table>
-    </div>
+                <td>
+                    <label>
+                        <input type="checkbox" value="cherry">
+                        <input type="checkbox" value="cherry" id="cherry">
+                        Cherry ($0.25)
+                    </label>
+                </td>
+        </tr>
+    </table>
+</div>
+<button id="submitOrder">
+    Submit Order
+</button>
+<table class="results">
+    <tr>
+        <td>
+            Base Price:
+        </td>
+        <td id="basePriceOutput">
+            $0.00
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tax:
+        </td>
+        <td id="taxOutput">
+            $0.00
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Total Due:
+        </td>
+        <td id="totalOutput">
+            $0.00
+        </td>
+    </tr>
+</table>
 </body>
-</html>
+<script>
+
+
+</script>
+<script src="main.js"></script>
+
+
+
